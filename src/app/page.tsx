@@ -28,13 +28,13 @@ export default function Home() {
       className="min-h-screen bg-[#0f172a] flex flex-col"
       style={{ fontFamily: 'Inter, sans-serif' }}
     >
-      <Header />
+      {/* <Header /> */}
 
       <main className="flex-1">
         <HomePage />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
