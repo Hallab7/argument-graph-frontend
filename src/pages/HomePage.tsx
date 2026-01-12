@@ -112,7 +112,7 @@ export default function HomePage() {
                     {stat.value}
                   </div>
                   <div className="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wide leading-tight">
-                    {stat.label}
+                    {stat.label} 
                   </div>
                 </div>
               ))}
@@ -205,8 +205,8 @@ export default function HomePage() {
       </div>
 
       {/* Call to Action */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-20">
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl sm:rounded-3xl p-6 sm:p-12 text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-20 my-6 ">
+        <div className=" bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl sm:rounded-3xl p-6 sm:p-12 text-center my-4">
           <h2 className="text-2xl sm:text-4xl font-bold mb-3 sm:mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Start Your Own Debate
           </h2>

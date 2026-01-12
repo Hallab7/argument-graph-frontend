@@ -23,10 +23,10 @@ import api from '@/lib/api';
 
 export default function DebateDetailPage() {
   const params = useParams();
-  const debateId = params.id as string;
+  const debateId = params?.id as string;
   const { user } = useAuth();
   const [debate, setDebate] = useState<Debate | null>(null);
-  const [arguments, setArguments] = useState<Argument[]>([]);
+  const [debateArguments, setDebateArguments] = useState<Argument[]>([]);
   const [loading, setLoading] = useState(true);
   const [showAddArgument, setShowAddArgument] = useState(false);
   const [viewMode, setViewMode] = useState<'graph' | 'list'>('graph');
@@ -139,7 +139,7 @@ export default function DebateDetailPage() {
       ];
 
       setDebate(mockDebate);
-      setArguments(mockArguments);
+      setDebateArguments(mockArguments);
     } catch (error) {
       console.error('Failed to fetch debate data:', error);
     } finally {
@@ -373,7 +373,7 @@ export default function DebateDetailPage() {
                 </div>
               ) : (
                 <div className="divide-y divide-slate-700">
-                  {arguments.map((argument) => (
+                  {debateArguments.map((argument) => (
                     <div key={argument.id} className="p-6 hover:bg-slate-800/30 transition">
                       <div className="flex items-start space-x-4">
                         <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold">

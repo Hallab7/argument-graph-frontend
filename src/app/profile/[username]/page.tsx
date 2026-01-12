@@ -24,7 +24,7 @@ import api from '@/lib/api';
 
 export default function ProfilePage() {
   const params = useParams();
-  const username = params.username as string;
+  const username = params?.username as string;
   const { user: currentUser } = useAuth();
   const [user, setUser] = useState<UserType | null>(null);
   const [loading, setLoading] = useState(true);
