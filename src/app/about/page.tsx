@@ -246,7 +246,7 @@ export default function AboutPage() {
                 avatar: '👨‍💻'
               },
               {
-                name: 'Dr. Aisha Patel',
+                name: 'Dr. Ibrahim Habeeb',
                 role: 'Head of Community',
                 bio: 'Social psychologist specializing in online communities and behavior change.',
                 avatar: '👩‍🔬'
