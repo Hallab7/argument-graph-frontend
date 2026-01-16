@@ -245,12 +245,12 @@ export default function AboutPage() {
                 bio: 'AI researcher focused on natural language processing and knowledge graphs.',
                 avatar: '👨‍💻'
               },
-              // {
-              //   name: 'Dr. Ibrahim Habeeb',
-              //   role: 'Head of Community',
-              //   bio: 'Social psychologist specializing in online communities and behavior change.',
-              //   avatar: '👩‍🔬'
-              // }
+              {
+                name: 'Dr. Ibrahim Habeeb',
+                role: 'Head of Community',
+                bio: 'Social psychologist specializing in online communities and behavior change.',
+                avatar: '👩‍🔬'
+              }
             ].map((member, index) => (
               <div key={index} className="text-center">
                 <div className="w-24 h-24 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 text-4xl">
