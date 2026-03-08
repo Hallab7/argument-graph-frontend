@@ -60,7 +60,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* How It Works */}
+    
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-white text-center mb-8">How ArgumentGraph Works</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -99,7 +99,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Key Features */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-12">
           <h2 className="text-3xl font-bold text-white text-center mb-8">Key Features</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
