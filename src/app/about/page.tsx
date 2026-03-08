@@ -17,7 +17,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Mission Section */}
+        
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-12">
           <div className="text-center mb-8">
             <Target className="text-blue-400 mx-auto mb-4" size={48} />
