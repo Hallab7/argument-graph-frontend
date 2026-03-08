@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#0f172a] pt-20 pb-12">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Hero Section */}
+  
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             About ArgumentGraph
@@ -29,7 +29,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Problem & Solution */}
+   
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-red-600/10 border border-red-600/20 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-white mb-4 flex items-center space-x-3">
