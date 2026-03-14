@@ -276,7 +276,6 @@ export default function ForgotPasswordPage() {
   return (
     <div className="min-h-screen bg-[#0f172a] flex items-center justify-center px-4">
       <div className="max-w-md w-full">
-        {/* Header */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-block mb-6">
             <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
@@ -297,13 +296,10 @@ export default function ForgotPasswordPage() {
           </p>
         </div>
 
-        {/* Form Steps */}
         {step === 'email' && renderEmailStep()}
         {step === 'otp' && renderOtpStep()}
         {step === 'reset' && renderResetStep()}
         {step === 'success' && renderSuccessStep()}
-
-        {/* Back to Login */}
         {step !== 'success' && (
           <div className="mt-6 text-center">
             <Link

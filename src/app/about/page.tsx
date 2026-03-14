@@ -261,7 +261,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Call to Action */}
         <div className="text-center">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8">
             <h2 className="text-3xl font-bold text-white mb-4">Join the Movement</h2>
