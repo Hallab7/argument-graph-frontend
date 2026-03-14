@@ -40,7 +40,6 @@ export default function ProfilePage() {
   const fetchUserProfile = async () => {
     setLoading(true);
     try {
-      // Mock data for now - replace with actual API call
       const mockUser: UserType = {
         id: '1',
         username: username,
@@ -79,7 +78,6 @@ export default function ProfilePage() {
       };
 
       setUser(mockUser);
-      // Check if following (mock)
       setIsFollowing(Math.random() > 0.5);
     } catch (error) {
       console.error('Failed to fetch user profile:', error);
@@ -131,10 +129,8 @@ export default function ProfilePage() {
   return (
     <div className="min-h-screen bg-[#0f172a] pt-20 pb-12">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Profile Header */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-8">
           <div className="flex flex-col md:flex-row items-start md:items-center space-y-6 md:space-y-0 md:space-x-8">
-            {/* Avatar */}
             <div className="relative">
               <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center text-white text-4xl font-bold">
                 {user.avatar_url ? (
