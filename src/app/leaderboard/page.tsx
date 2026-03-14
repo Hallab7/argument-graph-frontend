@@ -25,7 +25,6 @@ export default function LeaderboardPage() {
   const fetchLeaderboard = async () => {
     setLoading(true);
     try {
-      // Mock data for now - replace with actual API call
       const mockUsers: LeaderboardUser[] = [
         {
           id: '1',
@@ -86,7 +85,6 @@ export default function LeaderboardPage() {
         }
       ];
 
-      // Add more mock users
       for (let i = 4; i <= 20; i++) {
         mockUsers.push({
           id: i.toString(),
