@@ -261,9 +261,7 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* Tabs */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl overflow-hidden">
-          {/* Tab Navigation */}
           <div className="flex border-b border-slate-700">
             {[
               { key: 'overview', label: 'Overview', icon: <User size={16} /> },
@@ -286,7 +284,6 @@ export default function ProfilePage() {
             ))}
           </div>
 
-          {/* Tab Content */}
           <div className="p-6">
             {activeTab === 'overview' && (
               <div className="space-y-6">
