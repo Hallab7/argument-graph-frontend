@@ -196,7 +196,6 @@ export default function ProfilePage() {
                 </div>
               </div>
 
-              {/* Expertise Tags */}
               {user.expertise_tags && user.expertise_tags.length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-4">
                   {user.expertise_tags.map((tag) => (
@@ -210,7 +209,6 @@ export default function ProfilePage() {
                 </div>
               )}
 
-              {/* Join Date */}
               <div className="flex items-center space-x-4 text-sm text-slate-400">
                 <div className="flex items-center space-x-1">
                   <Calendar size={16} />
@@ -227,7 +225,6 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        {/* Badges */}
         {user.badges && user.badges.length > 0 && (
           <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-6 mb-8">
             <h2 className="text-xl font-bold text-white mb-4 flex items-center space-x-2">
