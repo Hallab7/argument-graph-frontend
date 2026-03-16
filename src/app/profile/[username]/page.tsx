@@ -146,7 +146,6 @@ export default function ProfilePage() {
               )}
             </div>
 
-            {/* User Info */}
             <div className="flex-1">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
@@ -156,7 +155,6 @@ export default function ProfilePage() {
                   )}
                 </div>
 
-                {/* Action Buttons */}
                 <div className="flex items-center space-x-3">
                   {isOwnProfile ? (
                     <button className="flex items-center space-x-2 bg-slate-700 hover:bg-slate-600 text-white px-4 py-2 rounded-lg transition">
@@ -179,7 +177,6 @@ export default function ProfilePage() {
                 </div>
               </div>
 
-              {/* Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-white">{formatNumber(user.reputation)}</div>
