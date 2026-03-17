@@ -135,14 +135,14 @@ export default function LoginPage() {
             </button>
           </form>
 
-          {/* Divider */}
+       
           <div className="my-6 flex items-center">
             <div className="flex-1 border-t border-slate-600"></div>
             <span className="px-4 text-sm text-slate-400">or continue with</span>
             <div className="flex-1 border-t border-slate-600"></div>
           </div>
 
-          {/* OAuth Buttons */}
+         
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <button className="flex items-center justify-center space-x-2 bg-slate-800/50 border border-slate-600 hover:border-slate-500 rounded-lg py-3 px-4 transition">
               <Chrome size={20} className="text-slate-400" />
@@ -154,7 +154,6 @@ export default function LoginPage() {
             </button>
           </div>
 
-          {/* Sign Up Link */}
           <div className="mt-6 text-center">
             <p className="text-slate-400">
               Don't have an account?{' '}
