@@ -43,7 +43,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-[#0f172a] flex items-center justify-center px-4 py-8">
       <div className="max-w-md w-full">
-        {/* Header */}
+       
         <div className="text-center mb-6 sm:mb-8">
           <Link href="/" className="inline-block mb-4 sm:mb-6">
             <h1 className="text-2xl sm:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
@@ -54,7 +54,7 @@ export default function LoginPage() {
           <p className="text-slate-400">Sign in to continue your debates</p>
         </div>
 
-        {/* Login Form */}
+     
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-6 sm:p-8">
           {error && (
             <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-4 mb-6">
