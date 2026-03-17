@@ -141,7 +141,7 @@ export default function DebateDetailPage() {
       setDebate(mockDebate);
       setDebateArguments(mockArguments);
     } catch (error) {
-      console.error('Failed to fetch debate data:', error);
+
     } finally {
       setLoading(false);
     }

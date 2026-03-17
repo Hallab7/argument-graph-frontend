@@ -116,7 +116,6 @@ function SearchPageContent() {
 
       setResults(mockResults);
     } catch (error) {
-      console.error('Search failed:', error);
     } finally {
       setLoading(false);
     }

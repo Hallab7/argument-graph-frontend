@@ -109,7 +109,6 @@ export default function LeaderboardPage() {
 
       setUsers(mockUsers);
     } catch (error) {
-      console.error('Failed to fetch leaderboard:', error);
     } finally {
       setLoading(false);
     }

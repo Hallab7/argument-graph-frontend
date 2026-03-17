@@ -80,7 +80,6 @@ export default function ProfilePage() {
       setUser(mockUser);
       setIsFollowing(Math.random() > 0.5);
     } catch (error) {
-      console.error('Failed to fetch user profile:', error);
     } finally {
       setLoading(false);
     }
@@ -100,7 +99,6 @@ export default function ProfilePage() {
         setUser(prev => prev ? { ...prev, followers_count: prev.followers_count + 1 } : null);
       }
     } catch (error) {
-      console.error('Failed to follow/unfollow user:', error);
     }
   };
 

@@ -37,8 +37,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setUser(response.data.user)
       }
     } catch (error) {
-      console.error('Failed to fetch current user:', error)
-      // Clear invalid token
+  
       api.clearToken()
     } finally {
       setLoading(false)
