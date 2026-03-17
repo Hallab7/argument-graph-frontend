@@ -63,7 +63,7 @@ export default function LoginPage() {
           )}
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Email */}
+           
             <div>
               <label className="block text-sm font-medium text-slate-300 mb-2">
                 Email
@@ -82,7 +82,7 @@ export default function LoginPage() {
               </div>
             </div>
 
-            {/* Password */}
+        
             <div>
               <label className="block text-sm font-medium text-slate-300 mb-2">
                 Password
@@ -108,7 +108,7 @@ export default function LoginPage() {
               </div>
             </div>
 
-            {/* Forgot Password */}
+           
             <div className="text-right">
               <Link
                 href="/auth/forgot-password"
@@ -118,7 +118,7 @@ export default function LoginPage() {
               </Link>
             </div>
 
-            {/* Submit Button */}
+          
             <button
               type="submit"
               disabled={loading}
