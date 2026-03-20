@@ -65,7 +65,7 @@ class ApiClient {
     }
   }
 
-  // Auth endpoints
+  
   async login(email: string, password: string) {
     return this.request<{ user: any; token: string; refreshToken: string }>('/auth/login', {
       method: 'POST',
