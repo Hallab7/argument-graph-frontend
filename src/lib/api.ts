@@ -161,7 +161,7 @@ class ApiClient {
     })
   }
 
-  // Argument endpoints
+
   async getArguments(debateId: string) {
     return this.request<any[]>(`/debates/${debateId}/arguments`)
   }
@@ -193,7 +193,7 @@ class ApiClient {
     })
   }
 
-  // User endpoints
+
   async getUsers(params?: any) {
     const queryString = params ? `?${new URLSearchParams(params).toString()}` : ''
     return this.request<any[]>(`/users${queryString}`)
@@ -215,7 +215,7 @@ class ApiClient {
     })
   }
 
-  // Search endpoints
+
   async search(query: string, filters?: any) {
     const params = { query, ...filters }
     const queryString = new URLSearchParams(params).toString()
