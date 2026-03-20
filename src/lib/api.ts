@@ -127,12 +127,11 @@ class ApiClient {
 
     return this.request<{ user: any }>('/auth/profile', {
       method: 'PUT',
-      headers: {}, // Don't set Content-Type for FormData
+      headers: {}, 
       body: formData,
     })
   }
 
-  // Debate endpoints
   async getDebates(params?: any) {
     const queryString = params ? `?${new URLSearchParams(params).toString()}` : ''
     return this.request<any[]>(`/debates${queryString}`)
