@@ -8,7 +8,7 @@ class ApiClient {
 
   constructor(baseURL: string) {
     this.baseURL = baseURL
-    // Get token from localStorage if available
+
     if (typeof window !== 'undefined') {
       this.token = localStorage.getItem('auth_token')
     }
@@ -222,7 +222,7 @@ class ApiClient {
     return this.request<any>(`/search?${queryString}`)
   }
 
-  // AI endpoints
+
   async analyzeArgument(argumentId: string) {
     return this.request<any>(`/ai/analyze/${argumentId}`)
   }
@@ -245,7 +245,7 @@ class ApiClient {
     return this.request<any>(`/ai/suggest-counter/${argumentId}`)
   }
 
-  // Admin endpoints
+
   async getAdminStats() {
     return this.request<any>('/admin/stats')
   }
