@@ -6,7 +6,6 @@ export default function GuidelinesPage() {
   return (
     <div className="min-h-screen bg-[#0f172a] pt-20 pb-12">
       <div className="max-w-4xl mx-auto px-4">
-        {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Shield className="text-blue-400" size={32} />
@@ -16,8 +15,6 @@ export default function GuidelinesPage() {
             Building a respectful environment for quality discourse and critical thinking
           </p>
         </div>
-
-        {/* Core Principles */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-8">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-3">
             <Award className="text-yellow-400" size={24} />
@@ -90,8 +87,6 @@ export default function GuidelinesPage() {
             </div>
           </div>
         </div>
-
-        {/* Prohibited Behavior */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-8">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-3">
             <XCircle className="text-red-400" size={24} />
@@ -184,8 +179,6 @@ export default function GuidelinesPage() {
             </div>
           </div>
         </div>
-
-        {/* Argument Quality Standards */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-8">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-3">
             <MessageSquare className="text-blue-400" size={24} />
@@ -222,8 +215,6 @@ export default function GuidelinesPage() {
             </div>
           </div>
         </div>
-
-        {/* Reputation System */}
         <div className="bg-slate-900/50 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mb-8">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center space-x-3">
             <Users className="text-purple-400" size={24} />
