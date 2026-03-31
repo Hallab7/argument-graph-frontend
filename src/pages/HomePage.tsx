@@ -20,7 +20,7 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  // Stats data
+
   const statsData = [
     {
       id: 'debates',
@@ -71,7 +71,6 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-white" style={{ fontFamily: 'Inter, sans-serif' }}>
-      {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/10 to-transparent pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-32 pb-12 sm:pb-20">
